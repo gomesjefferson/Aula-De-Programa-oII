@@ -1,0 +1,37 @@
+package linguagemdeprogramacao;
+
+import java.util.Scanner;
+
+public class NotasDeAlunos {
+    public static void main(String[] args){
+    int Nota1,Nota2,Nota3,Nota4;
+    Scanner sc = new Scanner(System.in);
+    
+    System.out.println("Digite a Nota do Aluno01:\n ");
+    Nota1 = Integer.parseInt(sc.nextLine());
+    System.out.println("Digite a Nota do Aluno02:\n ");
+    Nota2 = Integer.parseInt(sc.nextLine());
+    System.out.println("Digite a Nota do Aluno03:\n ");
+    Nota3 = Integer.parseInt(sc.nextLine());
+    System.out.println("Digite a Nota do Aluno04:\n ");
+    Nota4 = Integer.parseInt(sc.nextLine());
+    
+    if (Nota1>=7)
+        System.out.println("Aprovado");
+    else
+        System.out.println("Reprovado");
+    if (Nota2>=7)
+        System.out.println("Aprovado");
+    else
+        System.out.println("Reprovado");
+    if (Nota3>=7)
+        System.out.println("Aprovado");
+    else
+        System.out.println("Reprovado");
+    if (Nota4>=7)
+        System.out.println("Aprovado");
+    else
+        System.out.println("Reprovado");
+    }
+    
+}
