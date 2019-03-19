@@ -1,0 +1,21 @@
+package exercicio02;
+
+import java.util.Scanner;
+
+public class ExercicioNumber02 {
+    public static void main(String[] args){
+        Scanner uc = new Scanner(System.in);
+        int num;
+        
+        System.out.println("Digite um Número inteiro: ");
+        num = Integer.parseInt(uc.nextLine());
+        
+        if(num%2 == 0){
+            System.out.println("O valor digitado é: "
+                    + num + "\n" + "Logo,o número é Par");
+        }
+        else{
+            System.out.println("O valor digitado é: "
+                + num + "\n" + "Logo,o número é Impar");
+                    }
+    }
